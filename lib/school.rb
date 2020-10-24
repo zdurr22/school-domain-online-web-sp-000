@@ -5,6 +5,7 @@ class School
     roster = {
 
     }
+
   end
 
   def initialize(name)
@@ -15,7 +16,6 @@ class School
    roster << self
  end
 
-roster[self] = []
 
 
 end
