@@ -15,7 +15,7 @@ class School
    roster << self
  end
 
-
+roster[self] = []
 
 
 end
