@@ -16,7 +16,9 @@ class School
    roster = {
 
    }
-   roster[grade] = name
+   roster[grade] = []
+
+   roster[grade] << name
  end
 
 
