@@ -1,5 +1,5 @@
 class School
-  attr_accessor :grade, :student
+  attr_accessor :grade, :student, :name
 
   def roster
     roster = {
