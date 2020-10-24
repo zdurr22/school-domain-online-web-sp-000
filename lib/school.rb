@@ -1,7 +1,8 @@
 class School
   attr_accessor :grade, :name
-
- roster = {}
+  def initialized
+    roster = {}
+  end
 
  def add_student(name, grade)
    roster << self
