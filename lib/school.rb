@@ -5,7 +5,7 @@ class School
 
     }
 
-
+  end
 
   def initialize(name)
     @name = name
@@ -21,6 +21,6 @@ class School
 
  end
 
-end
+
 
 end
