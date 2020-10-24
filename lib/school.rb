@@ -16,7 +16,7 @@ class School
    roster = {
 
    }
-   roster[@grade] = @name
+   roster[grade] = name
  end
 
 
