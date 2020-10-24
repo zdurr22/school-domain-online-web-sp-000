@@ -1,8 +1,12 @@
 class School
   attr_accessor :grade, :name
 
+  def roster
+    roster = {
 
-
+    }
+  end
+  
   def initialize(name)
     @name = name
   end
@@ -15,6 +19,3 @@ class School
 
 
 end
-roster = {
-
-}
